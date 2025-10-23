@@ -97,3 +97,34 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+*
+
+// Ajout
+# --- AJOUTS RECOMMANDÉS POUR ÉVITER LES GROS FICHIERS UNITY ---
+
+# Cache des packages Unity (ne pas versionner)
+[Ll]ibrary/PackageCache/
+[Pp]ackages/packages-lock.json
+
+# Cache du compilateur Burst (très gros fichiers .dylib/.dll)
+[Bb]urstCache/
+[Bb]uildCache/
+
+# Cache du shader compilé
+/[Ss]haderCache/
+
+# Cache des scènes et de la lumière
+/[Ll]ightmapSnapshot/
+LightingData.asset
+
+# Cache des imports d'assets
+/[Aa]ssetBundleCache/
+
+# Si tu utilises Git LFS, garde ce rappel :
+.gitattributes
+
+# Fichiers temporaires Unity Cloud / Collaborate
+/[Uu]pgradeLog*.htm
+/[Uu]pgradeLog*.html
+/[Pp]ackages/manifest-temp.json
+
