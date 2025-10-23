@@ -97,34 +97,40 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
-*
 
-// Ajout
 # --- AJOUTS RECOMMANDÉS POUR ÉVITER LES GROS FICHIERS UNITY ---
 
-# Cache des packages Unity (ne pas versionner)
-[Ll]ibrary/PackageCache/
-[Pp]ackages/packages-lock.json
+# (Adapté car le projet Unity est dans un sous-dossier Td_Galaxie)
+Td_Galaxie/[Ll]ibrary/
+Td_Galaxie/[Ll]ibrary/PackageCache/
+Td_Galaxie/[Tt]emp/
+Td_Galaxie/[Oo]bj/
+Td_Galaxie/[Bb]uild/
+Td_Galaxie/[Bb]uilds/
+Td_Galaxie/[Ll]ogs/
+Td_Galaxie/[Uu]ser[Ss]ettings/
 
 # Cache du compilateur Burst (très gros fichiers .dylib/.dll)
-[Bb]urstCache/
-[Bb]uildCache/
+Td_Galaxie/[Bb]urstCache/
+Td_Galaxie/[Bb]uildCache/
 
 # Cache du shader compilé
-/[Ss]haderCache/
+Td_Galaxie/[Ss]haderCache/
 
 # Cache des scènes et de la lumière
-/[Ll]ightmapSnapshot/
-LightingData.asset
+Td_Galaxie/[Ll]ightmapSnapshot/
+Td_Galaxie/LightingData.asset
 
 # Cache des imports d'assets
-/[Aa]ssetBundleCache/
+Td_Galaxie/[Aa]ssetBundleCache/
 
-# Si tu utilises Git LFS, garde ce rappel :
-.gitattributes
+# Cache des packages Unity
+Td_Galaxie/[Pp]ackages/packages-lock.json
+Td_Galaxie/[Pp]ackages/manifest-temp.json
 
 # Fichiers temporaires Unity Cloud / Collaborate
-/[Uu]pgradeLog*.htm
-/[Uu]pgradeLog*.html
-/[Pp]ackages/manifest-temp.json
+Td_Galaxie/[Uu]pgradeLog*.htm
+Td_Galaxie/[Uu]pgradeLog*.html
 
+# Rappel Git LFS
+.gitattributes
